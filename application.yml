@@ -1,0 +1,14 @@
+spring:
+   profiles:
+      active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+      name: lionconfig-test-dev
+---
+spring:
+ profiles: default
+ application:
+      name: lionconfig-test-default
